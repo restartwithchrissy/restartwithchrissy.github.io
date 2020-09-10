@@ -18,25 +18,33 @@
         crossorigin="anonymous"></script>
     <style>
         body {
-             /* background-image: url(/images/purple-white-linear-1920x1080.svg); */
+            /* background-image: url(/images/purple-white-linear-1920x1080.svg); */
         }
 
         header {
             margin-top: 20px;
         }
-        .title{
+
+        .title {
             margin: 20px 0;
         }
-        .facebookicon{
+
+        .facebookicon {
             margin-top: 20px;
         }
 
-        .button {cursor: pointer;}
+        .button {
+            cursor: pointer;
+        }
 
-
+        img {
+            max-width: 100%;
+            /*不使用width:100% 是因避免圖片解析度不好，隨父元素被放大時會糊掉*/
+            height: auto;
+        }
     </style>
-    
-    
+
+
 </head>
 
 <body>
@@ -48,8 +56,8 @@
                 </div>
             </div>
             <div class="row">
-              <div class="col" style="text-align: center;">
-              <img src="/images/S__11771941_s.jpg" alt="" srcset=""></div>
+                <div class="col" style="text-align: center;">
+                    <img src="/images/S__11771941_s.jpg" alt="" srcset=""></div>
             </div>
         </div>
     </header>
@@ -60,7 +68,9 @@
                     <h4>Chrissy在2018年成為台灣第一個完成世界六大馬拉松的女跑者</h4>
                     <h4>同時也熱愛完三鐵、越野跑,也熱愛大自然。</h4>
                 </div>
-                <p>2019/08/04 騎車過程中突然跌倒撞倒頭, 顱骨骨折,耳朵鼻子都流血出來,整個過程從跌倒、救護車、急診、外科加護病房,她都不記得。腦損傷是一個隱形的傷,受傷後一整年起起伏伏,復能的過程很辛苦,每天症狀很多、電力不足,也不知道何時會好一點。過程中她很積極的認識『腦損傷TBI』 ,並在美國找到很多英文的資訊、支持團體、醫療團隊的諮詢。 </p>
+                <p>2019/08/04 騎車過程中突然跌倒撞倒頭,
+                    顱骨骨折,耳朵鼻子都流血出來,整個過程從跌倒、救護車、急診、外科加護病房,她都不記得。腦損傷是一個隱形的傷,受傷後一整年起起伏伏,復能的過程很辛苦,每天症狀很多、電力不足,也不知道何時會好一點。過程中她很積極的認識『腦損傷TBI』
+                    ,並在美國找到很多英文的資訊、支持團體、醫療團隊的諮詢。 </p>
                 <p>台灣腦創傷一年50萬人,平均每天1,369件, 這是一年診斷癌症的4.5倍, 但是 TBI 相關的資訊竟然完全沒有。 </p>
                 <p>因此下定決心架設TBI資訊網站及支持團體, 希望可以幫助更多人。 </p>
 
@@ -89,7 +99,7 @@
                         fill="" p-id="2421"></path>
                 </svg>
             </div>
-            <div class="col-sm button" onclick="youtube()"> 
+            <div class="col-sm button" onclick="youtube()">
                 <svg t="1599658086342" class="icon" viewBox="0 0 2453 1024" version="1.1"
                     xmlns="http://www.w3.org/2000/svg" p-id="1154" width="100" height="100">
                     <path
@@ -128,13 +138,11 @@
 
 
     <script>
-        function facebook()
-        {
-            window.location="https://www.facebook.com/runchrissy/";
+        function facebook() {
+            window.location = "https://www.facebook.com/runchrissy/";
         }
-        function youtube()
-        {
-            window.location="https://www.youtube.com/watch?v=-PkbDnsnZx0";
+        function youtube() {
+            window.location = "https://www.youtube.com/watch?v=-PkbDnsnZx0";
         }
     </script>
 
