@@ -17,9 +17,34 @@
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
     <style>
+        /* body {
+      font-family: arial, "Microsoft JhengHei", "微軟正黑體", sans-serif !important;
+    } */
+        @import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap");
+
         body {
-            /* background-image: url(/images/purple-white-linear-1920x1080.svg); */
+            height: 100%;
+            -moz-osx-font-smoothing: grayscale;
+            -webkit-font-smoothing: antialiased;
+            text-rendering: optimizeLegibility;
+            font-family: 'Noto Sans TC', Arial;
         }
+
+        /* 導覽列底色 */
+        .bg-light {
+            background-color: white !important;
+        }
+
+/* 原本導覽箭頭移除 */
+        .dropdown-toggle::after {
+            display: none;
+        }
+
+.navbar{
+    margin-left: 5%;
+    max-width: 90%;
+    font-size: 16px;
+}
 
         header {
             margin-top: 20px;
@@ -41,7 +66,7 @@
             max-width: 100%;
             /*不使用width:100% 是因避免圖片解析度不好，隨父元素被放大時會糊掉*/
             height: auto;
-        }        
+        }
     </style>
 
 
@@ -49,6 +74,40 @@
 
 <body>
     <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"><img src="/images/Option1-Ver1-PNG-01.png" style="width: 160px;" alt="" srcset=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Dropdown link
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                              </svg>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
         <div class="container">
             <!-- <div class="row">
                 <div class="col" style="text-align: center;">
@@ -116,11 +175,15 @@
                         d="M1311.410427 828.111329h-97.944335V265.332811h-102.76127V172.20541h308.28381v93.127401h-107.578205v562.778518"
                         fill="#FFFFFF" p-id="1158"></path>
                 </svg> -->
-                <iframe src="https://www.youtube.com/embed/-PkbDnsnZx0" style="margin-bottom: 20px;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/-PkbDnsnZx0" style="margin-bottom: 20px;" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
                 <div style="margin-top: -20px;">腦創傷365(精華版)</div>
             </div>
             <div class="col-sm button" onclick="youtubeFullVersion()">
-                <iframe  src="https://www.youtube.com/embed/TvutYI7mybo" style="margin-bottom: 20px;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/TvutYI7mybo" style="margin-bottom: 20px;" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
                 <!-- <svg t="1599658086342" class="icon" viewBox="0 0 2453 1024" version="1.1"
                     xmlns="http://www.w3.org/2000/svg" p-id="1154" width="100" height="100">
                     <path
