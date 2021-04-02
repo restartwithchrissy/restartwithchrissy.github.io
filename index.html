@@ -2,161 +2,352 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restart With Chrissy</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-        crossorigin="anonymous"></script>
-    <style>
-        body {
-            /* background-image: url(/images/purple-white-linear-1920x1080.svg); */
-        }
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=yes">
+  <meta name="description" content="Developed By TBI">
+  <meta name="author" content="TBI ktgh">
+  <meta name="keywords" content="Chrissy Wang,腦創傷,仁馨執行長,王詩婷,跟著詩婷跑,跟著詩婷往前走,Restart with Chrissy,TBI,腦傷,腦震盪">
+  <link rel="shortcut icon" href="img/favicon.png">
 
-        header {
-            margin-top: 20px;
-        }
+  <title>
+    Restart With Chrissy
+  </title>
+  <base href="./" />
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/theme.css" rel="stylesheet">
+  <link href="css/bootstrap-reset.css" rel="stylesheet">
+  <!-- <link href="css/bootstrap.min.css" rel="stylesheet">-->
 
-        .title {
-            margin: 20px 0;
-        }
+  <!--external css-->
+  <!-- <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" /> -->
+  <!-- <link href="assets/bxslider/jquery.bxslider.css" rel="stylesheet" /> -->
+  <link rel="stylesheet" href="css/animate.css">
+  <!-- <link rel="stylesheet" href="assets/owlcarousel/owl.carousel.css">
+  <link rel="stylesheet" href="assets/owlcarousel/owl.theme.css"> -->
 
-        .facebookicon {
-            margin-top: 20px;
-        }
+  <!-- <link href="css/superfish.css" rel="stylesheet" media="screen"> -->
 
-        .button {
-            cursor: pointer;
-        }
-
-        img {
-            max-width: 100%;
-            /*不使用width:100% 是因避免圖片解析度不好，隨父元素被放大時會糊掉*/
-            height: auto;
-        }        
-    </style>
+  <!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'> -->
 
 
+  <!-- Custom styles for this template -->
+  <!-- <link rel="stylesheet" type="text/css" href="css/component.css"> -->
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/style-responsive.css" rel="stylesheet" />
+
+  <!-- <link rel="stylesheet" type="text/css" href="css/parallax-slider/parallax-slider.css" /> -->
+  <!-- <script type="text/javascript" src="js/parallax-slider/modernizr.custom.28468.js"> -->
+  </script>
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 tooltipss and media queries -->
+  <!--[if lt IE 9]>
+    <script src="js/html5shiv.js">
+    </script>
+    <script src="js/respond.min.js">
+    </script>
+    <![endif]-->
+
+
+  <style>
+    #team .main p {
+      text-align: center;
+      color: white;
+      line-height: 32px;
+      margin-top: 0px;
+      /* font-size: 20px; */
+
+
+    }
+
+
+    /* margin-right: 30px; */
+
+
+    /* #team {
+      margin-top: 100px;
+      flex-direction: column;
+      justify-items: center;
+
+    } */
+
+    @media only screen and (max-width: 767px) {
+      .main p {
+        text-align: center;
+      }
+
+      footer {
+        margin-top: 20px !important;
+      }
+
+      #team {
+        width: 100%;
+      }
+
+      #team21 {
+        display: none;
+        width: 100%;
+      }
+
+      #team22 {
+        display: block !important;
+        max-width: 95%;
+        
+        
+      }
+      #team22div{
+        
+        background-color: #2C3E50;
+        ;
+      }
+    }
+  </style>
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <!-- <div class="row">
-                <div class="col" style="text-align: center;">
-                    <h1>Restart With Chrissy</h1>
-                </div>
-            </div> -->
-            <div class="row">
-                <div class="col" style="text-align: center;">
-                    <img src="/images/S__11771941_s.jpg" alt="" srcset=""></div>
-            </div>
-        </div>
-    </header>
-    <div class="container">
-        <div class="row">
-            <div class="col" style="text-align: center;">
-                <div class="title">
-                    <p>Chrissy在2018年成為台灣第一個完成世界六大馬拉松的女跑者</p>
-                    <p>同時也熱愛完三鐵、越野跑,也熱愛大自然。</p>
-                </div>
-                <p>2019/08/04 騎車過程中突然跌倒撞倒頭,
-                    顱骨骨折,耳朵鼻子都流血出來,整個過程從跌倒、救護車、急診、外科加護病房,她都不記得。腦損傷是一個隱形的傷,受傷後一整年起起伏伏,復能的過程很辛苦,每天症狀很多、電力不足,也不知道何時會好一點。過程中她很積極的認識『腦損傷TBI』
-                    ,並在美國找到很多英文的資訊、支持團體、醫療團隊的諮詢。 </p>
-                <p>台灣腦創傷一年50萬人,平均每天1,369件, 這是一年診斷癌症的4.5倍, 但是 TBI 相關的資訊竟然完全沒有。 </p>
-                <p>因此下定決心架設TBI資訊網站及支持團體, 希望可以幫助更多人。 </p>
 
-            </div>
+  <script src="./header.js"></script>
+
+  <div class="container">
+    <div class="row mar-b-50" style="margin-bottom: 0px;">
+      <div class="col-md-12">
+        <div class="pf-img" style="margin-bottom: 40px;">
+          <picture>
+            <source style="width: 100%;" media="(max-width: 768px)" srcset="img/index/main_m.jpg">
+            <img style="width: 100%;" src="img/index/main.jpg" alt="">
+          </picture>
+          <!-- <img src="img/index/main.jpg" alt=""> -->
         </div>
+        <div>
+          <div class="main" style="margin-bottom: 40px;">
+            <p>我是一個熱血的馬拉松跑者，<span class="english">2018</span>年成為台灣第一大馬拉松的女跑者 ，
+              同時我熱愛大自然及戶外運動。我在醫院<span class="english">＆</span>長照單位工作，希望能夠讓人活得更健康更樂活。
+            </p>
+
+            <p>
+              <span class="english">2019/08/04</span>
+              星期日出去騎車，莫名其妙跌倒撞到頭造成顱骨及鎖骨骨折，住院兩週出院後，症狀慢慢出現。從疲累到記憶變化，第三個月突然耳鳴加暈眩，數一數應該超過15種症狀。
+            </p>
+            <p>
+              復原過程中，我很積極的認識<span class="english">『</span>腦創傷<span class="english">TBI』</span>
+              ，開始詢問美國＆新加坡的專家，也開始搜尋TBI相關資料，
+              發現英文專業資訊及支持團體很多，但中文資訊幾乎沒有。台灣腦創傷一年<span class="english">50</span>萬人，平均每天<span
+                class="english">1,369</span>件，
+              這是一年診斷癌症的<span class="english">4.5</span>倍，但是 <span class="english">TBI</span>
+              相關的資訊竟然這麼少。
+
+              所以我決定利用我的熱情及醫療資源，分享我的經驗，還有翻譯對我幫助很大的美國腦創傷醫療資訊，希望能夠幫助更多病友及家屬。
+
+              但想特別說明，雖然我從事醫管工作，但我不是專業醫護人員，有問題或回饋歡迎私訊我的臉書「跟著詩婷跑」粉專，但專業照護的問題還是建議詢問專業的醫師。
+
+
+
+            </p>
+            <!-- <p>
+              過程中我很積極的認識『腦損傷<span class="english">TBI</span>』 ，並在美國找到很多英文的資訊、支持團體、醫療團隊的諮詢同時，我發現台灣腦創傷一年50萬人，平均每天<span
+                class="english">1,369</span>件， 這是一年診斷癌症的<span class="english">4.5</span>倍但是 <span
+                class="english">TBI</span> 相關的資訊竟然完全沒有！因此我決定利用我的熱情及醫療資源，提供<span
+                class="english">TBI</span>中文支援希望可以幫助跟我一樣很辛苦過著 <span class="english">post TBI life</span>的人
+            </p> -->
+          </div>
+
+
+        </div>
+      </div>
     </div>
-
-
-
-
-
-
-    <div class="container">
-        <div class="row" style="text-align: center;">
-            <div class="col-sm button facebookicon" onclick="facebook()">
-                <svg t="1599658009357" class="icon" viewBox="0 0 1024 1024" version="1.1"
-                    xmlns="http://www.w3.org/2000/svg" p-id="2418" width="60" height="60">
-                    <path
-                        d="M715.637 960h171.897C920.348 960 960 932.759 960 898.909V125.091C960 91.243 920.348 64 887.534 64H113.716C77.004 64 64 96.892 64 125.091v773.818C64 927.109 77.004 960 113.716 960h439.012V634.182H410.181c-11.257 0-20.363-9.106-20.363-20.363V491.637c0-11.257 9.106-20.365 20.363-20.365h142.546V328.728c0-99.354 88.056-183.272 192.261-183.272h113.193c11.257 0 20.365 9.106 20.365 20.363V288c0 11.258-9.108 20.365-20.365 20.365h-72.465c-34.444 0-70.079 19.052-70.079 50.908v112h131.17a20.27 20.27 0 0 1 16.507 8.472c3.856 5.291 4.891 12.133 2.823 18.337l-40.728 122.181a20.403 20.403 0 0 1-19.33 13.919h-90.442V960z"
-                        fill="#2577FF" p-id="2419"></path>
-                    <path
-                        d="M807.708 451.723h-92.071v19.549h112.288c-0.161-3.938-1.326-7.809-3.711-11.078a20.263 20.263 0 0 0-16.506-8.471zM513.629 940.451H75.445C83.3 951.952 95.599 960 113.716 960h439.012V634.183H513.63v306.268zM839.283 145.456c-0.451-10.855-9.231-19.549-20.198-19.549H705.89c-104.205 0-192.261 83.919-192.261 183.272v142.544H371.083c-11.257 0-20.363 9.108-20.363 20.365v122.181c0 11.258 9.107 20.364 20.363 20.364h18.899c-0.012-0.286-0.164-0.527-0.164-0.815V491.637c0-11.257 9.106-20.365 20.363-20.365h142.546V328.728c0-99.353 88.056-183.272 192.261-183.272h94.295z"
-                        fill="" p-id="2420"></path>
-                    <path
-                        d="M900.123 65.251c12.221 10.76 20.778 24.748 20.778 40.29V879.36c0 33.85-39.651 61.091-72.467 61.091H715.637V960h171.896C920.348 960 960 932.759 960 898.909V125.091c0-29.6-30.322-54.141-59.877-59.84z"
-                        fill="" p-id="2421"></path>
-                </svg>
-                <div>runwithchrissy的臉書</div>
-            </div>
-            <div class="col-sm button" onclick="youtube()">
-                <!-- <svg t="1599658086342" class="icon" viewBox="0 0 2453 1024" version="1.1"
-                    xmlns="http://www.w3.org/2000/svg" p-id="1154" width="100" height="100">
-                    <path
-                        d="M2437.368875 220.776166s-14.450804-100.352803-58.204626-144.508036C2323.769502 18.464916 2261.149353 18.063505 2232.649157 14.852215 2028.330851 0 1721.652685 0 1721.652685 0h-0.802822s-306.678165 0-511.397883 14.852215c-28.500196 3.21129-90.718934 3.612701-146.515093 61.817326-43.753822 44.155233-58.204626 144.508036-58.204625 144.508036s-14.450804 117.613485-14.450804 235.628381v110.388084c0 117.613485 14.450804 235.628381 14.450804 235.628381s14.450804 100.352803 58.204625 144.508036c55.394747 57.803214 128.451588 56.19757 160.965896 62.218737 116.810662 11.239514 496.94708 14.450804 496.94708 14.450804s307.079577-0.401411 511.397883-15.253626c28.500196-3.21129 90.718934-3.612701 146.515092-61.817327 43.753822-44.155233 58.204626-144.508036 58.204626-144.508036s14.450804-117.613485 14.450803-235.628381v-110.388083c0.401411-118.014896-14.049392-235.628381-14.049392-235.628381"
-                        fill="#D54029" p-id="1155"></path>
-                    <path
-                        d="M915.217562 828.111329h-93.127401v-53.789102C786.765974 814.864759 757.061544 834.935319 724.547236 834.935319c-28.500196 0-48.570757-13.647981-58.204625-37.732653-6.021168-14.852215-10.436691-38.134065-10.436692-71.852607V333.572717h93.127401V734.582517c2.007056 13.647981 8.028224 18.866327 19.66915 18.866327 17.662093 0 33.718542-15.655037 53.387691-43.352411V333.572717H915.217562v494.538612M587.264602 495.341435c0-52.98628-10.436691-92.324579-29.303018-117.613485-24.887495-33.718542-63.422971-47.767934-102.76127-47.767934-44.155233 0-77.873775 13.647981-102.76127 47.767934-18.866327 24.887495-29.303018 65.028616-29.303019 118.014896v175.81811c0 52.584869 9.232458 88.711878 28.098785 113.599373 24.887495 33.718542 65.028616 51.380635 103.965504 51.380635s79.880831-17.662093 104.768326-51.380635c18.866327-24.887495 27.295962-61.014504 27.295962-113.599373v-176.219521m-93.127401 185.853391c4.816935 48.972168-10.436691 73.05684-39.338299 73.05684-28.901607 0-44.155233-24.084673-39.338298-73.05684v-195.888672c-4.816935-48.972168 10.436691-71.852607 39.338298-71.852606 28.901607 0 44.155233 22.880439 39.338299 71.852606v195.888672zM220.374755 558.764406v269.346923H122.430419v-269.346923S20.873383 228.80439 0 167.388475h102.76127l68.641317 257.705998 68.239906-257.705998h102.76127l-122.029008 391.375931"
-                        fill="" p-id="1156"></path>
-                    <path
-                        d="M2329.389259 598.102705v-99.951392c0-52.183457-10.436691-90.317523-28.901607-115.205017-24.887495-33.317131-60.211682-50.979224-104.366915-50.979224-45.359467 0-80.683653 17.662093-105.97256 50.979224-18.866327 24.887495-29.70443 65.028616-29.704429 117.212073v171.402587c0 51.782046 12.042336 88.310466 30.908663 112.796551 25.690318 33.317131 61.014504 50.176401 107.176793 50.176401s82.69071-17.662093 107.176794-52.98628c10.838103-15.655037 17.662093-33.317131 20.873383-52.98628 0.802822-8.831047 3.21129-28.901607 3.211289-57.803214v-14.049392h-93.127401c0 35.725598 0 56.598981-0.802822 61.415915-5.218346 23.683261-17.662093 35.725598-39.73971 35.725598-30.507252 0-43.352411-22.880439-42.951-67.838495V598.102705h176.219522m-176.219522-127.648765c0-45.760878 12.443748-58.204626 42.148178-58.204626 29.303018 0 40.943944 13.647981 40.943943 59.007448v53.387691h-83.092121v-54.190513zM1918.74559 330.762838c-32.514308 0-65.028616 20.070561-93.528812 55.394747V172.20541h-87.909056v655.905919h87.909056V778.73775c29.70443 36.52842 61.817327 55.394747 93.528812 55.394747 35.324187 0 61.014504-18.866327 73.05684-55.394747 6.021168-20.873383 9.633869-52.584869 9.633869-97.944336v-195.888671c0-46.162289-6.021168-77.873775-12.042336-97.542924-11.640925-36.127009-35.324187-56.598981-70.648373-56.598981m-10.03528 355.248922c0 48.972168-11.640925 67.838495-36.929832 67.838495-14.450804 0-31.310074-7.626813-46.162289-22.479028v-296.642885c14.852215-14.450804 31.711486-22.479028 46.162289-22.479028 25.690318 0 36.929831 14.450804 36.929832 63.422971v210.339475zM1663.849471 828.111329h-93.127401v-53.789102C1535.397883 814.864759 1505.693454 834.935319 1473.179145 834.935319c-28.500196 0-48.570757-13.647981-58.204625-37.732653-6.021168-14.852215-10.436691-38.134065-10.436692-71.852607V338.791062h93.127401v396.192866c2.007056 13.647981 8.028224 18.866327 19.66915 18.866327 17.662093 0 33.718542-15.655037 53.387691-43.352411V338.791062h93.127401v489.320267"
-                        fill="#FFFFFF" p-id="1157"></path>
-                    <path
-                        d="M1311.410427 828.111329h-97.944335V265.332811h-102.76127V172.20541h308.28381v93.127401h-107.578205v562.778518"
-                        fill="#FFFFFF" p-id="1158"></path>
-                </svg> -->
-                <iframe src="https://www.youtube.com/embed/-PkbDnsnZx0" style="margin-bottom: 20px;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <div style="margin-top: -20px;">腦創傷365(精華版)</div>
-            </div>
-            <div class="col-sm button" onclick="youtubeFullVersion()">
-                <iframe  src="https://www.youtube.com/embed/TvutYI7mybo" style="margin-bottom: 20px;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <!-- <svg t="1599658086342" class="icon" viewBox="0 0 2453 1024" version="1.1"
-                    xmlns="http://www.w3.org/2000/svg" p-id="1154" width="100" height="100">
-                    <path
-                        d="M2437.368875 220.776166s-14.450804-100.352803-58.204626-144.508036C2323.769502 18.464916 2261.149353 18.063505 2232.649157 14.852215 2028.330851 0 1721.652685 0 1721.652685 0h-0.802822s-306.678165 0-511.397883 14.852215c-28.500196 3.21129-90.718934 3.612701-146.515093 61.817326-43.753822 44.155233-58.204626 144.508036-58.204625 144.508036s-14.450804 117.613485-14.450804 235.628381v110.388084c0 117.613485 14.450804 235.628381 14.450804 235.628381s14.450804 100.352803 58.204625 144.508036c55.394747 57.803214 128.451588 56.19757 160.965896 62.218737 116.810662 11.239514 496.94708 14.450804 496.94708 14.450804s307.079577-0.401411 511.397883-15.253626c28.500196-3.21129 90.718934-3.612701 146.515092-61.817327 43.753822-44.155233 58.204626-144.508036 58.204626-144.508036s14.450804-117.613485 14.450803-235.628381v-110.388083c0.401411-118.014896-14.049392-235.628381-14.049392-235.628381"
-                        fill="#D54029" p-id="1155"></path>
-                    <path
-                        d="M915.217562 828.111329h-93.127401v-53.789102C786.765974 814.864759 757.061544 834.935319 724.547236 834.935319c-28.500196 0-48.570757-13.647981-58.204625-37.732653-6.021168-14.852215-10.436691-38.134065-10.436692-71.852607V333.572717h93.127401V734.582517c2.007056 13.647981 8.028224 18.866327 19.66915 18.866327 17.662093 0 33.718542-15.655037 53.387691-43.352411V333.572717H915.217562v494.538612M587.264602 495.341435c0-52.98628-10.436691-92.324579-29.303018-117.613485-24.887495-33.718542-63.422971-47.767934-102.76127-47.767934-44.155233 0-77.873775 13.647981-102.76127 47.767934-18.866327 24.887495-29.303018 65.028616-29.303019 118.014896v175.81811c0 52.584869 9.232458 88.711878 28.098785 113.599373 24.887495 33.718542 65.028616 51.380635 103.965504 51.380635s79.880831-17.662093 104.768326-51.380635c18.866327-24.887495 27.295962-61.014504 27.295962-113.599373v-176.219521m-93.127401 185.853391c4.816935 48.972168-10.436691 73.05684-39.338299 73.05684-28.901607 0-44.155233-24.084673-39.338298-73.05684v-195.888672c-4.816935-48.972168 10.436691-71.852607 39.338298-71.852606 28.901607 0 44.155233 22.880439 39.338299 71.852606v195.888672zM220.374755 558.764406v269.346923H122.430419v-269.346923S20.873383 228.80439 0 167.388475h102.76127l68.641317 257.705998 68.239906-257.705998h102.76127l-122.029008 391.375931"
-                        fill="" p-id="1156"></path>
-                    <path
-                        d="M2329.389259 598.102705v-99.951392c0-52.183457-10.436691-90.317523-28.901607-115.205017-24.887495-33.317131-60.211682-50.979224-104.366915-50.979224-45.359467 0-80.683653 17.662093-105.97256 50.979224-18.866327 24.887495-29.70443 65.028616-29.704429 117.212073v171.402587c0 51.782046 12.042336 88.310466 30.908663 112.796551 25.690318 33.317131 61.014504 50.176401 107.176793 50.176401s82.69071-17.662093 107.176794-52.98628c10.838103-15.655037 17.662093-33.317131 20.873383-52.98628 0.802822-8.831047 3.21129-28.901607 3.211289-57.803214v-14.049392h-93.127401c0 35.725598 0 56.598981-0.802822 61.415915-5.218346 23.683261-17.662093 35.725598-39.73971 35.725598-30.507252 0-43.352411-22.880439-42.951-67.838495V598.102705h176.219522m-176.219522-127.648765c0-45.760878 12.443748-58.204626 42.148178-58.204626 29.303018 0 40.943944 13.647981 40.943943 59.007448v53.387691h-83.092121v-54.190513zM1918.74559 330.762838c-32.514308 0-65.028616 20.070561-93.528812 55.394747V172.20541h-87.909056v655.905919h87.909056V778.73775c29.70443 36.52842 61.817327 55.394747 93.528812 55.394747 35.324187 0 61.014504-18.866327 73.05684-55.394747 6.021168-20.873383 9.633869-52.584869 9.633869-97.944336v-195.888671c0-46.162289-6.021168-77.873775-12.042336-97.542924-11.640925-36.127009-35.324187-56.598981-70.648373-56.598981m-10.03528 355.248922c0 48.972168-11.640925 67.838495-36.929832 67.838495-14.450804 0-31.310074-7.626813-46.162289-22.479028v-296.642885c14.852215-14.450804 31.711486-22.479028 46.162289-22.479028 25.690318 0 36.929831 14.450804 36.929832 63.422971v210.339475zM1663.849471 828.111329h-93.127401v-53.789102C1535.397883 814.864759 1505.693454 834.935319 1473.179145 834.935319c-28.500196 0-48.570757-13.647981-58.204625-37.732653-6.021168-14.852215-10.436691-38.134065-10.436692-71.852607V338.791062h93.127401v396.192866c2.007056 13.647981 8.028224 18.866327 19.66915 18.866327 17.662093 0 33.718542-15.655037 53.387691-43.352411V338.791062h93.127401v489.320267"
-                        fill="#FFFFFF" p-id="1157"></path>
-                    <path
-                        d="M1311.410427 828.111329h-97.944335V265.332811h-102.76127V172.20541h308.28381v93.127401h-107.578205v562.778518"
-                        fill="#FFFFFF" p-id="1158"></path>
-                </svg> -->
-                <div style="margin-top: -20px;">腦創傷365(完整版)</div>
-            </div>
+  </div>
+  <!-- background-color: #7e57c2; text-align: center; -->
+  <div class="container" style="max-width: 100%; margin-bottom: 20px;">
+    <div class="row">
+      <div>
+        <div class="col-md-12">
+          <picture>
+            <source style="width: 100%;" media="(max-width: 768px)" srcset="img/journeyBanner-01_m.png">
+            <img id="journey" style="max-width: 100%;" src="img/journeyBanner-01-01.png" alt="" srcset="">
+          </picture>
         </div>
+      </div>
     </div>
+  </div>
+
+  <!-- https://docs.google.com/document/d/1MAZ-jQ8rEFKuY4WT5Awxrto5tjBeXFH6/edit -->
+
+  <div class="bg-lg">
+    <div class="container">
+      <div class="row mar-b-30">
+        <div class="portfoliolist-four">
+          <div class="col-md-12">
+            <div class="portfolio logo" data-cat="logo">
+              <div class="portfolio-wrapper">
+                <a href="pages/journey/01.html"><img src="img/journey/旅程C-小圖01.jpg" alt="" /></a>
+              </div>
+            </div>
+
+            <div class="portfolio app" data-cat="app">
+              <div class="portfolio-wrapper">
+                <a href="pages/journey/02.html"><img src="img/journey/旅程C-小圖02.jpg" alt="" /></a>
+              </div>
+            </div>
+
+            <div class="portfolio web" data-cat="web">
+              <div class="portfolio-wrapper">
+                <a href="pages/journey/03.html"><img src="img/journey/旅程C-小圖03.jpg" alt="" /></a>
+              </div>
+            </div>
+
+            <div class="portfolio card" data-cat="card">
+              <div class="portfolio-wrapper">
+                <a href="pages/journey/04.html"><img src="img/journey/旅程C-小圖04.jpg" alt="" /></a>
+              </div>
+            </div>
+
+            <div class="portfolio app" data-cat="app">
+              <div class="portfolio-wrapper">
+                <a href="pages/journey/05.html"><img src="img/journey/旅程C-小圖05.jpg" alt="" /></a>
+              </div>
+            </div>
+
+            <div class="portfolio app" data-cat="app">
+              <div class="portfolio-wrapper">
+                <a href="pages/journey/06.html"><img src="img/journey/旅程C-小圖06.jpg" alt="" /></a>
+              </div>
+            </div>
+
+            <div class="portfolio app" data-cat="app">
+              <div class="portfolio-wrapper">
+                <a href="pages/journey/07.html"><img src="img/journey/旅程C-小圖07.jpg" alt="" /></a>
+              </div>
+            </div>
+
+            <div class="portfolio app" data-cat="app">
+              <div class="portfolio-wrapper">
+                <a href="pages/journey/08.html"><img src="img/journey/旅程C-小圖08.jpg" alt="" /></a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div class="container">
+    <div class="row mar-b-50">
+      <div class="col-md-12">
+        <div class="feature-box">
+          <div class="col-md-4 col-sm-4 text-center wow fadeInUp">
+            <div>
+              <em>
+                <a href="blog-detail.html">
+                  <img src="img/1.png" alt="" width="120" height="120">
+                </a>
+              </em>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 text-center wow fadeInUp">
+            <div class="feature-box-heading">
+              <em>
+                <img src="img/2.png" alt="" width="120" height="120">
+              </em>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 text-center wow fadeInUp">
+            <div class="feature-box-heading">
+              <em>
+                <img src="img/3.png" alt="" width="120" height="120">
+              </em>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
 
 
-    <script>
-        function facebook() {
-            window.location = "https://www.facebook.com/runchrissy/";
-        }
-        function youtube() {
-            window.location = "https://www.youtube.com/watch?v=-PkbDnsnZx0";
-        }
-        function youtubeFullVersion() {
-            window.location = "https://www.youtube.com/watch?v=TvutYI7mybo&t=8s*";
-        }
-    </script>
+  <div class="container" style="max-width: 100%; background-color: #2C3E50;" id="team">
+    <div class="row">
+      <div class="col-lg-6 col-sm-12">
+        <div class="page-footer wow fadeInUp" data-wow-duration="2s" data-wow-delay=".5s">
+          <img src="img/index/team.png" alt="Chrissy Wang、腦創傷、仁馨執行長、王詩婷、跟著詩婷跑、跟著詩婷往前走、Restart with Chrissy、TBI、腦傷、腦震盪"
+            style="margin-top: 20px;">
+        </div>
+      </div>
+      <!--  -->
+      <div class="col-lg-6 col-sm-12">
+        <div class="page-footer wow fadeInUp">
+          <img id="team21" src="img/index/team2.jpg"
+            alt="Chrissy Wang、腦創傷、仁馨執行長、王詩婷、跟著詩婷跑、跟著詩婷往前走、Restart with Chrissy、TBI、腦傷、腦震盪"
+            style="margin-top: 20px;width: 100%;">
+        </div>
+        <!-- <div class="main">
+          <p>感謝一路支持我的親朋好友，</p>
+          <p>
+            沒有你們，我無法度過這個漫長又挑戰的旅程。</p>
+          <P>也很感謝我的<span class="english">TBI</span>團隊，沒有你們不會有這個網站。</P>
+          <p>感謝：琪瑤（翻譯）, 于蘋（設計), 建同（網站架設）, 雅喬（影片拍攝剪輯）, <span class="english">Trista & Galant</span>（專案助理）, 還有我乾弟弟中衛營運長
+            張德成友情贊助 <span class="english">Logo </span>設計。</p>
+          <p>因為有你們，我能夠幫助更多<span class="english">TBI</span>病友及家屬，讓我們跟這詩婷往前走吧！</p>
+        </div> -->
+      </div>
+    </div>
+  </div>
+  <div id="team22div" class="center">
+    <img id="team22"  style="display: none;" src="img/index/team2.jpg">
+  </div>
+  <!--container end-->
+
+  <script src="./footer.js"></script>
+
+  <!-- js placed at the end of the document so the pages load faster
+<script src="js/jquery.js">
+</script>
+-->
+  <script src="js/jquery.js">
+  </script>
+  <script src="js/bootstrap.min.js">
+  </script>
+  <script type="text/javascript" src="js/hover-dropdown.js">
+  </script>
+  <script type="text/javascript" src="assets/bxslider/jquery.bxslider.js">
+  </script>
+
+  <script type="text/javascript" src="js/jquery.parallax-1.1.3.js">
+  </script>
+  <script src="js/wow.min.js">
+  </script>
+  <script src="assets/owlcarousel/owl.carousel.js">
+  </script>
+
+  <script src="js/jquery.easing.min.js">
+  </script>
+  <script src="js/link-hover.js">
+  </script>
+  <script src="js/superfish.js">
+  </script>
+  <script type="text/javascript" src="js/parallax-slider/jquery.cslider.js">
+  </script>
 
 
+  <!--common script for all pages-->
+  <script src="js/common-scripts.js">
+  </script>
 
+  <!-- <script type="text/javascript">
+    jQuery(document).ready(function () {
+      $("#logo").show()
+    });
+  </script> -->
 
+  <script>
+    $('a.info').tooltip();
+
+    jQuery(document).ready(function () {
+      $("#tbilink").show();
+      jQuery('ul.superfish').superfish();
+    });
+
+    new WOW().init();
+  </script>
 </body>
 
 </html>
