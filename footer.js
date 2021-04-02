@@ -28,7 +28,7 @@ footer =
     <div class="container">\
       <div class="row">\
         <div class="col-lg-6 col-sm-6 pull-right">\
-          <ul class="social-link-footer list-unstyled">\         
+          <ul class="social-link-footer list-unstyled">\
           </ul>\
         </div>\
         <div class="col-md-4" style="display:flex">\
