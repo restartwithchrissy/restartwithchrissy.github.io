@@ -108,6 +108,5 @@ header =
       </div>\
     </div>\
   </header>\
-  </div>\
 '
 document.write(header);
